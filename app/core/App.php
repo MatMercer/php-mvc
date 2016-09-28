@@ -39,7 +39,7 @@ class App {
         // print_r($this->params);
 
         // finally call everything with the parameters
-        call_user_func([$this->controller, $this->method], $this->params);
+        call_user_func_array([$this->controller, $this->method], $this->params);
 
         // var_dump($this->controller);
     }
