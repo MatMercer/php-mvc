@@ -43,3 +43,9 @@ flycheck_*.el
 
 # backup files
 *.bak
+
+# composer vendor folder
+vendor/
+
+# composer lock file
+composer.lock
