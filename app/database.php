@@ -9,11 +9,10 @@ $capsule->addConnection([
     'driver' => 'mysql',
     'host' => '127.0.0.1',
     'username' => 'mranyone',
-    'password' => 'myspass',
+    'password' => '',
     'database' => 'php_mvc',
     'charset' => 'utf8',
-    'collation' => 'utf8_unicode_cli',
-    'prefix' => ''
+    'collation' => 'utf8_unicode_ci'
 ]);
 
 // load eloquent based on the settings

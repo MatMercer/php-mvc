@@ -7,7 +7,7 @@ class Message extends Eloquent {
     protected $fillable = [
         'title',
         'author',
-        'date',
-        'content'
+        'content',
+        'post_date'
     ];
 }
