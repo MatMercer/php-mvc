@@ -10,7 +10,7 @@ $capsule->addConnection([
     'host' => '127.0.0.1',
     'username' => 'mranyone',
     'password' => 'myspass',
-    'database' => 'php-mvc',
+    'database' => 'php_mvc',
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_cli',
     'prefix' => ''
