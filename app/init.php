@@ -1,5 +1,8 @@
 <?php
 
+// set the timezone
+date_default_timezone_set('America/Sao_Paulo');
+
 // composer autoloader
 require_once '../vendor/autoload.php';
 
